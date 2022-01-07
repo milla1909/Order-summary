@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+ background-image:url("pattern-background-desktop.svg");    
+ background-repeat:no-repeat;
+ background-position:100% -30%;
+ font-family: 'Red Hat Display', sans-serif;
+ background-size: 100%;
+ height:100vh;
+ background-color:hsl(225, 100%, 94%);
+}
+h1{
+    font-size:1.25rem;
+    margin:0;
+    padding-inline:10px;
+    padding-bottom:10px;
+    padding-top:10px;
+    font-weight:900;
+    color:hsl(223, 47%, 23%);
+}
+p{
+    font-size:0.75rem;
+    margin:0;
+    line-height:1.5;
+    padding-inline:4px;
+    color:hsl(224, 23%, 55%);
+    font-weight:500;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.card{
+    min-height:30rem;
+    width:20rem;
+    border-radius:0.8rem;
+    background-color:white;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+
+}
+.image-background{
+    background-image: url(illustration-hero.svg);    
+    height:10rem;
+    width:100%;
+    background-size:cover;
+    border-radius:4% 4% 0 0;
+
+
+}
+.centered-text{
+    text-align:center;
+    padding-top:20px;
+}
+.padding{
+    padding-inline:2.85rem;
+}
+
+.annual-play{
+    display:flex;
+    align-items:center;
+    text-align:center;
+    padding:1rem 3rem 1rem 40px;
+   
+  }
+
+
+.text-black{
+    color:hsl(223, 47%, 23%);
+    font-weight:900;
+    font-size:0.75rem;
+}
+.icon{
+    display:flex;
+    align-items:center;
+    padding:0;
+    padding-top:10px;
+    padding-left:6px;
+    margin-right:2px;
+}
+a{
+    margin-left:auto;
+    font-size:0.65rem;
+    color:hsl(223, 47%, 23%);
+    font-weight:900;
+}
+a:hover{
+    color:hsl(224, 23%, 55%);
+}
+.btn{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:6rem;
+}
+    
+.payment{
+    width:80%;
+    height:38px;
+    border-radius:0.5rem;
+    font-family:inherit;
+    background-color:hsl(245, 75%, 52%);
+    color:white;
+    font-weight:900;
+    font-size:0.7em;
+    border:none;
+    padding:5px 0;
+    cursor:pointer;
+}
+.payment:hover{
+    background-color:hsl(224, 23%, 55%);
+}
+.cancel{
+    border:none;
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size:0.7rem;
+    font-family:inherit;
+    background-color:transparent;
+    color:hsl(224, 23%, 55%);
+    font-weight:900;
+    cursor:pointer;
+}
+.cancel:hover{
+    color:hsl(223, 47%, 23%);
+}
